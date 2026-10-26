@@ -15,7 +15,7 @@ int main(void)
         return 1;
     }
 
-    insumos_disponibles = insumos_iniciales + insumos_recibidos + insumos_utilizados;
+    insumos_disponibles = insumos_iniciales + insumos_recibidos -  insumos_utilizados;
 
     printf("Insumos disponibles: %d\n", insumos_disponibles);
     return 0;
